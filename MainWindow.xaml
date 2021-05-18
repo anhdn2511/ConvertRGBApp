@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="600" Background="AliceBlue">
     <Grid>
-        <TextBox x:Name="RGBText" Height="23" HorizontalAlignment="Left" Margin="151,30,0,0" VerticalAlignment="Top" Width="120" />
-        <TextBox x:Name="HexText" Height="23" HorizontalAlignment="Left" Margin="151,68,0,0" VerticalAlignment="Top" Width="120" />
+        <TextBox x:Name="RGBText" Height="23" HorizontalAlignment="Left" Margin="151,30,0,0" VerticalAlignment="Top" Width="120" TextChanged="RGB_TextChanged" />
+        <TextBox x:Name="HexText" Height="23" HorizontalAlignment="Left" Margin="151,68,0,0" VerticalAlignment="Top" Width="120" TextChanged="Hex_TextChanged"/>
         <TextBox x:Name="Error" Height="23" HorizontalAlignment="Left" Margin="151,111,0,0" VerticalAlignment="Top" Width="120"/>
         <Label Content="RGBText" Height="28" HorizontalAlignment="Left" Margin="39,28,0,0" Name="RGB" VerticalAlignment="Top" />
         <Label Content="HexText" Height="28" HorizontalAlignment="Left" Margin="39,63,0,0" Name="Hex" VerticalAlignment="Top" />

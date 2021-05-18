@@ -8,19 +8,29 @@ using System.Drawing;
 
 namespace ConvertRGBApp
 {
-    public interface ISubject
+    public class Observable
     {
-        void attach(Observer observer);
-        void detach(Observer observer);
-        void notify(System.Drawing.Color c);
+        protected List<Observer> observersList;
+        public delegate void UIDelegate(String str);
+        protected UIDelegate del;
+        protected bool isLocked;
 
-    }
-    public class Subject : ISubject
-    {
-        public List<Observer> observersList;
-        public Subject() {
+        public Observable() {
             observersList = new List<Observer>();
-        }   
+            isLocked = false;
+            del = null;
+        }
+        protected void updateUI(string str)
+        {
+            isLocked = true;
+            del(str);
+            isLocked = false;
+        }
+
+        public bool IsLocked
+        {
+            get { return isLocked; }
+        }
         public void attach(Observer observer)
         {
             if (!observersList.Contains(observer)) observersList.Add(observer);
@@ -29,7 +39,7 @@ namespace ConvertRGBApp
         {
             if (observersList.Contains(observer)) observersList.Remove(observer);
         }
-        public void notify(System.Drawing.Color c)
+        protected void notify(System.Drawing.Color c)
         {
             foreach(var obs in observersList)
             {

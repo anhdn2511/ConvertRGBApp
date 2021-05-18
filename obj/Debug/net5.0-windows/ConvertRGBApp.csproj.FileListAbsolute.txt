@@ -20,3 +20,29 @@ E:\CSE\Tài liệu Bách Khoa\202\Advanced Programming\ConvertRGBApp\obj\Debug\n
 E:\CSE\Tài liệu Bách Khoa\202\Advanced Programming\ConvertRGBApp\obj\Debug\net5.0-windows\ref\ConvertRGBApp.dll
 E:\CSE\Tài liệu Bách Khoa\202\Advanced Programming\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.pdb
 E:\CSE\Tài liệu Bách Khoa\202\Advanced Programming\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.genruntimeconfig.cache
+F:\CSE\HK202\ConvertRGBApp\bin\Debug\net5.0-windows\ConvertRGBApp.exe
+F:\CSE\HK202\ConvertRGBApp\bin\Debug\net5.0-windows\ConvertRGBApp.dll.config
+F:\CSE\HK202\ConvertRGBApp\bin\Debug\net5.0-windows\ConvertRGBApp.deps.json
+F:\CSE\HK202\ConvertRGBApp\bin\Debug\net5.0-windows\ConvertRGBApp.runtimeconfig.json
+F:\CSE\HK202\ConvertRGBApp\bin\Debug\net5.0-windows\ConvertRGBApp.runtimeconfig.dev.json
+F:\CSE\HK202\ConvertRGBApp\bin\Debug\net5.0-windows\ConvertRGBApp.dll
+F:\CSE\HK202\ConvertRGBApp\bin\Debug\net5.0-windows\ref\ConvertRGBApp.dll
+F:\CSE\HK202\ConvertRGBApp\bin\Debug\net5.0-windows\ConvertRGBApp.pdb
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.csprojAssemblyReference.cache
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.dll.config
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\MainWindow.g.cs
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\App.g.cs
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp_MarkupCompile.cache
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp_MarkupCompile.lref
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\MainWindow.baml
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.g.resources
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.Properties.Resources.resources
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.csproj.GenerateResource.cache
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.AssemblyInfoInputs.cache
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.AssemblyInfo.cs
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.csproj.CoreCompileInputs.cache
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.dll
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ref\ConvertRGBApp.dll
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.pdb
+F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.genruntimeconfig.cache
