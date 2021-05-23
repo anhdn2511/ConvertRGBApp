@@ -46,3 +46,7 @@ F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.dll
 F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ref\ConvertRGBApp.dll
 F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.pdb
 F:\CSE\HK202\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.genruntimeconfig.cache
+E:\CSE\Tài liệu Bách Khoa\202\Advanced Programming\ConvertRGBApp\bin\Debug\net5.0-windows\ConvertRGBApp.dll.config
+E:\CSE\Tài liệu Bách Khoa\202\Advanced Programming\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.dll.config
+E:\CSE\Tài liệu Bách Khoa\202\Advanced Programming\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.Properties.Resources.resources
+E:\CSE\Tài liệu Bách Khoa\202\Advanced Programming\ConvertRGBApp\obj\Debug\net5.0-windows\ConvertRGBApp.csproj.GenerateResource.cache
