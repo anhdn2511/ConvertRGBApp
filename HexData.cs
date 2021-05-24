@@ -10,10 +10,11 @@ namespace ConvertRGBApp
     class HexData : Observable, Observer
     {
         private string hexString;
-
+        private bool isTurned;
         public HexData(UIDelegate del)
         {
             hexString = string.Empty;
+            isTurned = true;
             this.del = del;
         }
         public void update(System.Drawing.Color c)
@@ -26,9 +27,13 @@ namespace ConvertRGBApp
             hexString = "#" + c.R.ToString("X2") + c.G.ToString("X2") + c.B.ToString("X2");
             updateUI(hexString);
         }
-        public string getVal()
+        public bool getIsTurned()
         {
-            return hexString;
+            return isTurned;
+        }
+        public void setIsTurned(bool b)
+        {
+            isTurned = b;
         }
         public void setVal(string str)
         {

@@ -10,9 +10,11 @@ namespace ConvertRGBApp
     class RGBData : Observable, Observer
     {
         private string RGBString;
+        private bool isTurned;
         public RGBData(UIDelegate del)
         {
             RGBString = string.Empty;
+            isTurned = true;
             this.del = del;
         }
         void Observer.update(System.Drawing.Color c)
@@ -24,6 +26,14 @@ namespace ConvertRGBApp
             }
             RGBString = c.R.ToString() + ", " + c.G.ToString() + ", " + c.B.ToString();
             updateUI(RGBString);
+        }
+        public bool getIsTurned()
+        {
+            return isTurned;
+        }
+        public void setIsTurned(bool b)
+        {
+            isTurned = b;
         }
         private bool isValid(int val)
         {

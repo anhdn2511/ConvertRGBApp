@@ -9,9 +9,12 @@
     <Grid>
         <TextBox x:Name="RGBText" Height="23" HorizontalAlignment="Left" Margin="276,51,0,0" VerticalAlignment="Top" Width="120" TextChanged="RGB_TextChanged" />
         <TextBox x:Name="HexText" Height="23" HorizontalAlignment="Left" Margin="276,121,0,0" VerticalAlignment="Top" Width="120" TextChanged="Hex_TextChanged"/>
-        <TextBox x:Name="Error" Height="23" HorizontalAlignment="Left" Margin="276,196,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="RGBText" Height="28" HorizontalAlignment="Left" Margin="203,48,0,0" Name="RGB" VerticalAlignment="Top" />
-        <Label Content="HexText" Height="28" HorizontalAlignment="Left" Margin="203,121,0,0" Name="Hex" VerticalAlignment="Top" />
-        <Label Content="Error" Height="28" HorizontalAlignment="Left" Margin="211,194,0,0" Name="Err" VerticalAlignment="Top" />
+        <TextBox x:Name="HSLText" Height="23" HorizontalAlignment="Left" Margin="276,196,0,0" VerticalAlignment="Top" Width="120" TextChanged="HSL_TextChanged"/>
+        <Label Content="RGB" Height="28" HorizontalAlignment="Left" Margin="203,48,0,0" Name="RGB" VerticalAlignment="Top" />
+        <Label Content="Hex" Height="28" HorizontalAlignment="Left" Margin="203,121,0,0" Name="Hex" VerticalAlignment="Top" />
+        <Label Content="HSL" Height="28" HorizontalAlignment="Left" Margin="211,194,0,0" Name="Err" VerticalAlignment="Top" />
+        <Button x:Name="RGBButton" Content="On/Off" HorizontalAlignment="Left" Height="21" Margin="453,52,0,0" VerticalAlignment="Top" Width="53" Click="turnRGB"/>
+        <Button x:Name="HexButton" Content="On/Off" HorizontalAlignment="Left" Height="22" Margin="453,124,0,0" VerticalAlignment="Top" Width="53" Click="turnHex"/>
+        <Button x:Name="HSLButton" Content="On/Off" HorizontalAlignment="Left" Height="21" Margin="453,198,0,0" VerticalAlignment="Top" Width="53" Click="turnHSL"/>
     </Grid>
 </Window>

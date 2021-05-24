@@ -7,19 +7,26 @@ using System.Drawing;
 
 namespace ConvertRGBApp
 {
-    class Background : Observer
+    class Background : Observable, Observer
     {
         private Color backgroundColor;
         
-
-        public Background()
+        public Background(UIDelegate del)
         {
             backgroundColor = Color.Empty;
+            this.del = del;
         }
         public void update(System.Drawing.Color c)
         {
-            if (c == Color.Empty) return;
+            if (c == Color.Empty)
+            {
+                backgroundColor = Color.White;
+                updateUI(string.Empty);
+                return;
+            }
             backgroundColor = c;
+            string tmp = "#" + c.R.ToString("X2") + c.G.ToString("X2") + c.B.ToString("X2");
+            updateUI(tmp);
         }
         public Color getVal()
         {
